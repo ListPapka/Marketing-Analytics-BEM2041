@@ -1,0 +1,25 @@
+MACHINE SUMMARY (objective; for interpretation elsewhere)
+============================================================
+Recommended number of clusters (KMeans, heuristic): 2
+
+Evaluation metrics by k (standardized inputs):
+  k=2: silhouette=0.2668, CH=395.60, DB=1.4771, min_size=456, sizes=[456,540]
+  k=3: silhouette=0.2574, CH=380.97, DB=1.3240, min_size=276, sizes=[276,295,425]
+  k=4: silhouette=0.2252, CH=325.44, DB=1.4358, min_size=164, sizes=[164,243,289,300]
+  k=5: silhouette=0.2132, CH=303.44, DB=1.5277, min_size=154, sizes=[154,160,172,216,294]
+  k=6: silhouette=0.2110, CH=278.01, DB=1.4243, min_size=107, sizes=[107,141,145,150,189,264]
+
+Cluster sizes (final solution):
+  Cluster 1: n=540 (54.2%)
+  Cluster 2: n=456 (45.8%)
+
+Variables with strongest separation across clusters (segmentation base, eta^2):
+  ReplacReminder: eta^2=0.5983
+  ProdReturn: eta^2=0.3813
+  ProInsuCov: eta^2=0.2375
+  CusChoice: eta^2=0.1375
+  ConstUp: eta^2=0.0688
+
+Provisional neutral labels (use in reports until named substantively):
+  Cluster 1
+  Cluster 2
